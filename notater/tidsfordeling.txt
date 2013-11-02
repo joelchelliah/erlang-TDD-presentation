@@ -1,0 +1,46 @@
+9:15 - 10:00
+
+	- Intro
+		* Hva skal vi gjøre
+			>> workstation, 5min, rulere ...
+			>> TDD
+			>> forklaring av oppgaven (En slide med enkle tennis regler?)
+			>> roadmap
+		  
+	- Basic Erlang syntax
+		* variabler
+		* atoms
+		* tuple
+		* Funksjoner
+			>> pattern matching
+			>> guards
+			>> eksempler
+
+	- Testing
+		* Asserts
+		* Skrive test i IntelliJ
+
+	- Jobbe
+
+
+10:15 - 11:00
+
+	- Litt mer avansert Erlang syntax
+		* Loop med State?
+		* prosesser / spawn
+		* Testing
+			>> Test generators?
+
+	- Jobbe
+
+
+
+11:15 - 12:00
+
+	- Litt mer avansert Erlang syntax?
+		* Records? (for evt. mer avansert scoreboard)
+		* Testing (Fixtures?)
+
+	- Jobbe
+
+	- Oppsummering?
