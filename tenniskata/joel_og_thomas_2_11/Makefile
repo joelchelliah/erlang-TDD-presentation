@@ -1,4 +1,4 @@
-all: compile
+all: compile test
 
 compile: 
 	erlc -o ebin +debug_info src/*.erl     
