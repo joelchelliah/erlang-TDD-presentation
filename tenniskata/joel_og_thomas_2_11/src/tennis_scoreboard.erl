@@ -8,7 +8,7 @@ start() -> spawn(fun loop/0).
 stop(Pid) -> Pid ! stop.
 
 player_scores(Pid, Player) ->
-  Pid ! {self(), player_scores, Player}.
+  Pid ! {player_scores, Player}.
 
 actual_score(Pid) ->
   Pid ! {self(), get_score},
@@ -20,7 +20,7 @@ actual_score(Pid) ->
 loop() -> loop({0,0}).
 loop(Actual_score) ->
   receive
-    {From, player_scores, Player} ->
+    {player_scores, Player} ->
       loop(tennis_rules:a_player_scores(Actual_score, Player));
     {From, get_score} ->
       From ! Actual_score,
