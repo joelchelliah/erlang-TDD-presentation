@@ -1,0 +1,29 @@
+
+- Variabler
+	* binding
+	* immutable
+	* pattern-matching
+
+- Boolske uttrykk
+	* standard
+	* and, or, not
+
+- Atoms
+	* konstanter, hvor navnet er verdien
+	* som symbols i ruby
+
+- Tuples
+	* {13, "hei", ok}
+	* fast antall elementer
+	* kan inneholde forskjellige typer verdier
+	* pattern-matching for å hente ut elementer
+
+
+- Funksjoner
+    * erlang module (en samling av funksjoner)
+    	>> (-module(), -export(), import()?)
+    * syntax
+    * pattern matching
+    * branching ( ; )
+    * guards
+    * eksempler
