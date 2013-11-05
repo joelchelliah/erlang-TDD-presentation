@@ -20,10 +20,38 @@
 
 
 - Funksjoner
-    * erlang module (en samling av funksjoner)
-    	>> (-module(), -export(), import()?)
-    * syntax
-    * pattern matching
-    * branching ( ; )
-    * guards
-    * eksempler
+  * erlang module (en samling av funksjoner)
+  	>> (-module(), -export(), import()?)
+  * syntax
+  * pattern matching
+  * branching ( ; )
+  * guards
+  * eksempler
+
+
+- Testing
+	* eunit
+	* asserts
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+Avansert:
+
+
+- Records
+	* -record(cat, {name, color=red, details=[]})
+	* pattern-matching på hele record og field
+	* hente ut en verdi fra en record
+
+- Test generators
+	* Gi mer fleksibilitet rundt testing
+	* Wrappe testene i en funksjon for å kunne kjøre senere
+	* test_, ?_assert -> generere tester
+
+
+- Fixtures
+	* Sette opp scaffolding rundt testene
+	* Setup / cleanup , lokalt vs ny process, osv..
+	* kan ha en liste med Fixtures, (evt. foreach fixture)
