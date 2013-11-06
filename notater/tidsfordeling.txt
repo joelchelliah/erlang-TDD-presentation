@@ -7,6 +7,7 @@
 			>> forklaring av oppgaven (En slide med enkle tennis regler?)
 			>> roadmap
 		  
+        - Erlang kompilasjon, kjøre erlang, IntelliJ plug-in (how it works, where is the magic, ...)
 	- Basic Erlang syntax
 		* variabler
 		* atoms
