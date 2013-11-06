@@ -1,2 +1,7 @@
-.idea/workspace.xml
+# Intellij
+.idea/
+*.iml
+*.iws
 
+#Erlang build
+out/*
