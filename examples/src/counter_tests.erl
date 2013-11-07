@@ -2,6 +2,13 @@
 -include_lib("eunit/include/eunit.hrl").
 
 
+not_error_proof__test() ->
+  Pid = counter:start(),
+  Result = counter:add(3, Pid),
+  counter:stop(Pid),
+
+  ?assertEqual(3, Result).
+
 %% Fixture
 
 % Setup fixture
@@ -18,9 +25,6 @@ stop(Pid) -> counter:stop(Pid).
 
 
 add_3_to_counter(Pid) -> [?_assertEqual(3, counter:add(3, Pid))].
-
-
-
 
 
 
